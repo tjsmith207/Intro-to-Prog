@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unit One Notes</title>
+	</head>
+	<body>
+		<h1>Unit One Notes</h1>
+		<hr>
+	<h2>The Basics of the Web</h2>
+		<ul>
+			<li>The web is a collection of HTML documents</li>
+			<li>HTML stand for <q>Hypertext Markup Language</q>.</li>
+			<li>Hyperlinks in HTML documents glue the web together.</li>
+			<li>The web is made up of aprox. 30 billion pages.</li>
+		</ul>
+	<h2>Major Pieces of the Web</h2>
+		<ul>
+			<li>You</li>
+			<li>Your Computer + Browser</li>
+			<li>The internet - World's largest Network</li>
+			<li>HTTP Communication</li>
+			<li>Servers</li>
+		</ul>
+	<h2>HTML Content</h2>
+		<ul>
+			<li>Text Content - What you See</li>
+			<li>Markup - What it looks like</li>
+			<li>References - links to images, videos, etc.</li>
+			<li>Links - paths to other pages</li>
+			<li><a href="http://www.w3schools.com/html/default.asp">w3Schools.com</a> is a great resource for HTML.</li>
+		</ul>
+	<u>Markup</u>
+		<ul>
+			<li>Markup tags are text elements that tell the browser how to treat the text.</li>			
+			<li>They start with an opening tag.</li>
+			<li>They end with a closing tag.</li>
+			<li>The whole thing is called an <q>element</q>.</li>
+			<li>Example...<q>b</q> tag = Bold</li>
+			<li>Example...<q>em</q> tag = Emphasis</li>
+			<li>Example...<q>p</q> tag = Paragraph</li>
+			<li>Example...<q>br</q> tag = Line Break (VOID tag that creates white space)</li>
+			<li>Tags have in-line effects - text just breaks to the next line.</li>
+			<li>Blocks create an invisible box for text that has height and width.</li>
+			<li>SPAN is inline...DIV is block.</li>
+			<li>Computers are stupid so be precise with your code.</li>
+		</ul>
+	<u>References</u>
+		<ul>
+			<li>HTML <a href="http://www.w3schools.com/html/html_attributes.asp">Attributes</a> Explained</li>
+			<li><a href="http://www.w3schools.com/tags/tag_a.asp">Anchor</a> Tag Reference</li>
+			<li><a href="http://www.w3schools.com/html/html_images.asp">Image </a>Tag Reference</li>
+			<li>Image tags have no closing tag.  This is a VOID tag with no content.</li>
+		</ul>
+	<u>Links</u>
+		<ul>
+			<li>HTML links are <q>Hyperlinks</q>.</li>
+			<li>They start with an <q>a</q> tag.</li>
+			<li><a href="http://www.w3schools.com/html/html_links.asp">Hyperlink</a> Rerference</li>
+		</ul>
+	<h2>HTML Document Structure</h2>
+		<ul>
+			<li>DOCTYPE - Indicates the document type.</li>
+			<li>html - Indicates the markup type.</li>
+			<li>head - Location for Meta Data, Java Script, CSS.</li>
+			<li>title - Determins the title of the document.</li>
+			<li>Body - The visible part of the HTML.</li>
+			<li><a href="http://www.w3schools.com/html/html_basic.asp">Document Structure</a> Reference</li> 
+		</ul>
+	</body>
+</html>
