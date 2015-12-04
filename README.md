@@ -1,2 +1,2 @@
 # Intro-to-Prog
-# The project is to support my Introduction to Programming Udacity class.
+This project is to support my Introduction to Programming class with Udacity.
