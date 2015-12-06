@@ -1,0 +1,23 @@
+
+/* This is the styling for the title header*/
+
+.S1_AllNotesTitle {
+
+    background-color:black;
+    color:white;
+    padding:2px;
+    padding-left:20px;
+    border-radius:1pc;
+
+}
+
+/* This is the styling for 1.1 The Basics of the Web and HTML Notes*/
+
+.S1-1_Notes {
+
+    background-color:lightgray;
+    padding:2px;
+    border-radius:1pc;
+    padding-left: 20px;
+
+}
