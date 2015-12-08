@@ -1,0 +1,35 @@
+/* This is common styling for all pages*/
+
+* {
+    -webkit-flex:1;
+}
+
+/* This is the styling for the Index page*/
+
+.IndexHeader {
+    background-color: darkblue;
+    color: white;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+.IndexContent {
+    display: flex;
+    flex-basis: 60%;
+}
+
+.IndexNavigation {
+    background-color: lightgray;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+/* This is the styling for the Notes*/
+
+.Notes {
+    padding-left: 20px;
+}
+
+.NotesContent {
+    padding-left: 20px;
+}
