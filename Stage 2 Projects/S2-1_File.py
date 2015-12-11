@@ -18,3 +18,12 @@ print 365 * 24 * 60 * 60
 # Write a Python program that prints out the number of minutes in seven weeks.
 
 print 7 * 7 * 24 * 60
+
+# Write Python code to print out how far light travels
+# in centimeter in one nanosecond.  Use the values
+# defined below.
+# speed_of_light = 299792458 meters per second
+# centimeters = 100 (one meter is 100 centimeters)
+# nanosecond = 1.0/1000000000 (one billionth of a second)
+
+print 1.0/1000000000 * (299792458 * 100)
