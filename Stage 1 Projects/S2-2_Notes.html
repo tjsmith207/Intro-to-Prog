@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage 2.2 Notes</title>
+    <link rel="stylesheet" href="S1_Notes.css">
+</head>
+<body>
+    <div>
+        <header class="title">
+            <h1>2.2 Variables and Strings</h1>
+        </header>
+    </div>
+    <div>
+        <main class="content">
+            <section>
+                <header>
+                    <h3>What is a variable?</h3>
+                </header>
+                <ul>
+                    <li>Names to keep track of values</li>
+                    <li>Assignment statement (Name = Expression)</li>
+                    <li>Example...speed_of_light = 299792458</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>What does it mean to ASSIGN a VALUE to a variable?</h3>
+                </header>
+                <ul>
+                    <li>The variable name contains the value.</li>
+                    <li>Variables can remaine constant, but values can change.</li>
+                    <li>Assignment is important because variables must have value or they don't work.</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>What is the difference between what the equals "=" means in math versus in programming?</h3>
+                </header>
+                <ul>
+                    <li>Equals in variables means "assignment", not a comparison of value.</li>
+                    <li>This does not mean equal, it's more like an arrow pointing to the value.</li>
+                    <li>Don't start a variable name with a capital letter.</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Strings</h3>
+                </header>
+                <ul>
+                    <li>'I am a string!' OR;</li>
+                    <li>"I am a string!"</li>
+                    <li>Double quotes allow for use of single quotes within a string.</li>
+                    <li>You can combine strings with operators (like +)</li>
+                    <li>Example would be...print 'Hello ' + name</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Indexing Strings</h3>
+                </header>
+                <ul>
+                    <li>String is a sequence of characters.</li>
+                    <li>We can extract characters from the string by using [] square brackets.</li>
+                    <li>We could use...'udacity'[0] to return the "u".</li>
+                    <li>We can do this with the number of characters present.</li>
+                    <li>The first character is indexed at zero.</li>
+                    <li>We can back through a string using negative numbers.</li>
+                    <li>Remember...the computer always does the math first in a sequence.</li>
+                    <li>Example "string" [expression] = one-character string w/ expression being a number.</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Selecting Sub-Sequences</h3>
+                </header>
+                <ul>
+                    <li>Example..."string"[expression]:[expression] with both expressions being numbers.</li>
+                    <li>String the is a subsequence of the characters in the string.</li>
+                    <li>First expression is position start, second is stop minus 1.</li>
+                    <li>We can leave a colon empty to search from start to end or vis versa.</li>
+                    <li>We can leave both sides blank to get the whole word.</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>"Find" Function w/in Strings</h3>
+                </header>
+                <ul>
+                    <li>Find is a method (built in feature of Python).</li>
+                    <li>It operates on strings.</li>
+                    <li>"string".find("string").</li>
+                    <li>Find will give us the fist position in the search string where the target string occurs.</li>
+                    <li>If nothing is found the output will be -1.</li>
+                    <li>Find cares about capitalization so be specific</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Find...Parameters</h3>
+                </header>
+                <ul>
+                    <li>"string".find("string"), number.</li>
+                    <li>Passes whats in the search string after the number.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
