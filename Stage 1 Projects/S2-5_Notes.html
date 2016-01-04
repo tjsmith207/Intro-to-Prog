@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage 2.5 Notes</title>
+    <link rel="stylesheet" href="S1_Notes.css">
+</head>
+<body>
+    <div>
+        <header class="title">
+            <h1>2.5 Debugging</h1>
+        </header>
+    </div>
+    <div>
+        <main class="content">
+            <section>
+                <header>
+                    <h3>Maurice Wilkes</h3>
+                </header>
+                <p>Inventor of the EDSAC...one of the worlds first programmable computers.</p>
+                <p>Famous Quote...</p>
+                <p>"By June 1949, people had begun to realize that it was not so easy to get a program right as had at one time appeared. [...] The realization came over me with full force that a good part of the remainder of my life was going to be spent in finding errors in my own programs."</p>
+            </section>
+            <section>
+                <header>
+                    <h3>Bugs</h3>
+                </header>
+                <ul>
+                    <li>Inevitable...so find a structured, repeatable way of finding them.</li>
+                    <li>When you debug you may need to look up solutions on the internet.</li>
+                    <li>In many chases you may need to get code examples.</li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h3>Debugging Strategy Recap (from Udacity)</h3>
+                </header>
+                <ol>
+                    <li><b>Examine Error Messages When Programs Crash</b> - The list line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.</li>
+                    <li><b>Work from Example Code</b> - If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want.</li>
+                    <li><b>Make Sure Examples Work</b> - Just because you find example code doesn't mean it will work in your system.  Check the example code you're using to make sure it behaves the way you expect.</li>
+                    <li><b>Check (print) Intermediate Results</b> - When your code doesn't crash, but doesn't behave as expected, add print statements to your program to see where in the code things stop behaving correctly.</li>
+                    <li><b>Keep and Compare Old Versions</b> - When you have a working version of your code, save it before you add to the code.  This will give you something to go back to if you introduce too many new bugs.</li>
+                </ol>
+            </section>
+            <section>
+                <header>
+                    <h3>Commenting Code</h3>
+                </header>
+                <p>Comments in your code are notes that help you and others understand what the code is intended to do.  There are some guidelines to be followed that produce good comments:</p>
+                <ol>
+                    <li><b>Don't Comment Obvious Code</b> - If the code is self-explainatory then it doesn't need a comment.</li>
+                    <li><b>Start Functions with a Comment</b> - The comment should describe the expected inputs and outputs and what the function does.  You can use # symbols or (in Python) a docstring ("""_"""). Whatever you choose be consistent.</li>
+                    <li><b>Keep Comments Up-to-Date</b> - Code will be confusing if you make chages without updating comments.</li>
+                    <li><b>Be Concise</b> - Comments should be short and explain the important details. If it takes a complex comment you should rethink how you coded the solution.</li>
+                </ol>
+            </section>
+            <section>
+                <header>
+                    <h3>Tips</h3>
+                </header>
+                <ul>
+                    <li>Write a test after every important step so that you test as you go.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
